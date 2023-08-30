@@ -2,7 +2,7 @@ package org.lessons.ch3_new_beans.beans;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class Parrot {
     private String name = "Jacko";
 
