@@ -3,8 +3,6 @@ package org.lessons.ch4_abstraction.with_spring.main;
 import org.lessons.ch4_abstraction.with_spring.CommentService;
 import org.lessons.ch4_abstraction.with_spring.configuration.ProjectConfiguration;
 import org.lessons.ch4_abstraction.with_spring.model.Comment;
-import org.lessons.ch4_abstraction.with_spring.proxies.EmailCommentNotificationProxy;
-import org.lessons.ch4_abstraction.with_spring.repositories.DBCommentRepository;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
