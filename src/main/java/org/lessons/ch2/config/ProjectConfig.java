@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ProjectConfig {
 
-    @Bean
+    @Bean("Jacklin")
     Parrot parrot() {
         Parrot parrot = new Parrot();
-        parrot.setName(" Coco");
+        parrot.setName(" Jacklin");
         return parrot;
     }
  @Bean
