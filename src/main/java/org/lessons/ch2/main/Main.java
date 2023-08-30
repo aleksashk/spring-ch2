@@ -16,5 +16,8 @@ public class Main {
         Parrot parrotJacklin = context.getBean("Robert",Parrot.class);
         System.out.println(parrotJacklin.getName());
 
+        Cat catBean = context.getBean(Cat.class);
+        System.out.println(catBean);
+
     }
 }
