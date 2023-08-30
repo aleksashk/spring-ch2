@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        Parrot parrot = context.getBean("parrot2",Parrot.class);
+        Parrot parrot = context.getBean("parrot",Parrot.class);
         System.out.println(parrot.getName());
 
         String strHello = context.getBean(String.class);
@@ -15,6 +15,9 @@ public class Main {
 
         Integer int10 = context.getBean(Integer.class);
         System.out.println(int10);
+
+        Parrot parrotJaco = context.getBean("parrot3",Parrot.class);
+        System.out.println(parrotJaco.getName());
 
     }
 }
