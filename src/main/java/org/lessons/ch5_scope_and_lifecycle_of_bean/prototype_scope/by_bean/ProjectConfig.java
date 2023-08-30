@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Scope;
 public class ProjectConfig {
 
     @Bean
-    @Scope(BeanDefinition.SCOPE_PROTOTYPE)
+    @Scope(BeanDefinition.SCOPE_SINGLETON)
     public CommentService commentService() {
         return new CommentService();
     }
