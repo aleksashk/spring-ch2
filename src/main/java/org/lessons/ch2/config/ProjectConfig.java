@@ -13,6 +13,18 @@ public class ProjectConfig {
         parrot.setName(" Coco");
         return parrot;
     }
+ @Bean
+    Parrot parrot2() {
+        Parrot parrot = new Parrot();
+        parrot.setName(" Marcus");
+        return parrot;
+    }
+ @Bean
+    Parrot parrot3() {
+        Parrot parrot = new Parrot();
+        parrot.setName(" Jaco");
+        return parrot;
+    }
 
     @Bean
     String hello(){

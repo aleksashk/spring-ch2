@@ -15,5 +15,8 @@ public class Main {
 
         Integer int10 = context.getBean(Integer.class);
         System.out.println(int10);
+
+        Parrot parrot1 = context.getBean(Parrot.class);
+        System.out.println(parrot1);
     }
 }
