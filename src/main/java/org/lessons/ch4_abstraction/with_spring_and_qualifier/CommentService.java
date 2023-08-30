@@ -5,8 +5,9 @@ import org.lessons.ch4_abstraction.with_spring_and_qualifier.proxies.CommentNoti
 import org.lessons.ch4_abstraction.with_spring_and_qualifier.repositories.CommentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class CommentService {
     private final CommentRepository commentRepository;
 
