@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Primary;
 @Configuration
 public class ProjectConfig {
 
-    @Bean
+    @Bean("Robert")
     Parrot parrot() {
         Parrot parrot = new Parrot();
         parrot.setName(" Robert");
