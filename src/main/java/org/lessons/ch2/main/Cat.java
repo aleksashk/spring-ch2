@@ -2,6 +2,8 @@ package org.lessons.ch2.main;
 
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+
 @Component
 public class Cat {
     private String name;
@@ -19,5 +21,10 @@ public class Cat {
         return "Cat{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    @PostConstruct
+    public void init(){
+        this.name = "Briget";
     }
 }

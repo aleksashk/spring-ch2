@@ -17,7 +17,7 @@ public class Main {
         System.out.println(parrotJacklin.getName());
 
         Cat catBean = context.getBean(Cat.class);
-        System.out.println(catBean);
+        System.out.println(catBean.getName());
 
     }
 }
