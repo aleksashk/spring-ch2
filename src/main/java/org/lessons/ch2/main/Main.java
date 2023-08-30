@@ -13,7 +13,7 @@ public class Main {
         Integer int10 = context.getBean(Integer.class);
         System.out.println(int10);
 
-        Parrot parrotJacklin = context.getBean("Jacklin",Parrot.class);
+        Parrot parrotJacklin = context.getBean("Robert",Parrot.class);
         System.out.println(parrotJacklin.getName());
 
     }
