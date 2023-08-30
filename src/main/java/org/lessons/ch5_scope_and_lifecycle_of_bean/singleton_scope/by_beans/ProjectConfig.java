@@ -1,4 +1,4 @@
-package org.lessons.ch5_scope_and_lifecycle_of_bean.singleton_scope;
+package org.lessons.ch5_scope_and_lifecycle_of_bean.singleton_scope.by_beans;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
