@@ -1,9 +1,8 @@
-package org.lessons.ch4_abstraction.whithout_spring.services;
+package org.lessons.ch4_abstraction.without_spring.services;
 
-import org.lessons.ch4_abstraction.whithout_spring.model.Comment;
-import org.lessons.ch4_abstraction.whithout_spring.proxies.CommentNotificationProxy;
-import org.lessons.ch4_abstraction.whithout_spring.proxies.EmailCommentNotificationProxy;
-import org.lessons.ch4_abstraction.whithout_spring.repositories.CommentRepository;
+import org.lessons.ch4_abstraction.without_spring.model.Comment;
+import org.lessons.ch4_abstraction.without_spring.proxies.CommentNotificationProxy;
+import org.lessons.ch4_abstraction.without_spring.repositories.CommentRepository;
 
 public class CommentService {
     private final CommentRepository commentRepository;

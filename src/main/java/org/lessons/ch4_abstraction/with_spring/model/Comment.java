@@ -1,4 +1,4 @@
-package org.lessons.ch4_abstraction.whithout_spring.model;
+package org.lessons.ch4_abstraction.with_spring.model;
 
 public class Comment {
     private String author;

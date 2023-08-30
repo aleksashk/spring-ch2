@@ -1,6 +1,6 @@
-package org.lessons.ch4_abstraction.whithout_spring.repositories;
+package org.lessons.ch4_abstraction.without_spring.repositories;
 
-import org.lessons.ch4_abstraction.whithout_spring.model.Comment;
+import org.lessons.ch4_abstraction.without_spring.model.Comment;
 
 public class DBCommentRepository implements CommentRepository {
     @Override

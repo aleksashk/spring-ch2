@@ -1,7 +1,9 @@
-package org.lessons.ch4_abstraction.whithout_spring.proxies;
+package org.lessons.ch4_abstraction.with_spring.proxies;
 
-import org.lessons.ch4_abstraction.whithout_spring.model.Comment;
+import org.lessons.ch4_abstraction.with_spring.model.Comment;
+import org.springframework.stereotype.Component;
 
+@Component
 public class EmailCommentNotificationProxy implements CommentNotificationProxy {
     @Override
     public void sendComment(Comment comment) {
