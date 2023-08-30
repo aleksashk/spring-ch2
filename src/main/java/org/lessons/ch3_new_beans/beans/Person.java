@@ -7,8 +7,10 @@ import org.springframework.stereotype.Component;
 public class Person {
     private String name = "Arkcady";
 
+    //@Autowired
     private final Parrot parrot;
 
+    //если конструктор один то @Autowired не надо
     public Person(Parrot parrot) {
         this.parrot = parrot;
     }
